@@ -1,0 +1,386 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lobster', cursive;
+}
+.top{
+    border-bottom: 1px solid #ECF0F1;
+    display: flex;
+    padding: 20px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    display: flex;
+}
+.contact a{
+    text-decoration: none;
+    color: #2C3E50;
+    margin-left: 5px;
+}
+.contact a+i{
+    margin-left: 25px;
+}
+nav {
+display: flex;
+justify-content: space-between;
+}   
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    font-size: 35px;
+    flex-basis: 50%
+}
+.navigation{
+    flex-basis: 50%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo span{
+    margin-left: 10px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #2C3E50;
+}
+.searchBar form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px grey; 
+    flex-basis: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    margin: 0 auto;
+    width: 1100px;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services h2,
+.aparts h2,
+.partners h2,
+.gallery h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.services-articles,
+.aparts-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin-left: 15px;
+}
+.search button{
+    margin-top: 13px;
+    width: 150px;
+}
+footer{
+    background-color:grey;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.our-partners{
+    background-image: url('img/Vector Smart Object1@1X.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 250px;
+    height: 75px;
+}
+.our-partners-second{
+    background-image: url('img/Vector Smart Object1@1X.png');
+    background-repeat: no-repeat;
+    background-position: -352px 0px;
+    width: 250px;
+    height: 75px;  
+}
+.our-partners-third{
+    background-image: url('img/Vector Smart Object1@1X.png');
+    background-repeat: no-repeat;
+    background-position: -660px 0px;
+    width: 250px;
+    height: 75px;  
+}
+.our-partners-forth{
+    background-image: url('img/Vector Smart Object1@1X.png');
+    background-repeat: no-repeat;
+    background-position: -954px 0px;
+    width: 250px;
+    height: 75px;  
+}
+.partners-content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.rules a{
+color:inherit;
+}
+.fa-trophy:before{
+    color: gold;
+}
+.trophy{
+    color: #2C3E50;
+}
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-wrap{
+    background-color: #FCFCFC;
+}
+.d-block{
+    height: 750px;
+}
+.services-articles, .aparts-articles {
+    flex-wrap: wrap;
+}
+.card-img-top {
+    height: 222px;
+}
+.card {
+    height: 498px;
+    margin-bottom: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.card-body h5{
+    text-align: center;
+}
+.btn btn-primary{
+    align-self: flex-end;
+}
+#carouselExampleIndicators{
+    margin-bottom: 15px;
+}
+#gallery-images .item{
+    margin: 3px;
+  }
+  #gallery-images .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .aboutUs-content img:nth-child(1){
+    float: left;
+    width: 500px;
+    margin-right: 10px;
+  }
+  .aboutUs-content p{
+    font-size: 20px;
+    text-indent: 25px;
+    word-spacing: 15px;
+    text-align: justify;
+  }
+  .aboutUs-content img:nth-child(3){
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+  }
+  .cycling img:nth-child(2){
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+  }
+  .services-content p{
+    font-size: 20px;
+    text-indent: 25px;
+    word-spacing: 15px;
+    margin: 0;
+  }
+  .services-content h3{
+      text-align: center;
+      margin: 15px 0;
+  }
+  .services-content-MB,
+  .blue-lakes-images{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .services-content .services-content-MB img,
+  .services-content .blue-lakes-images img{
+      width: 390px;
+  }
+  .services-content .bath-images img,
+  .services-content .yacht-img img{
+      margin-right: 10px;
+      width: 400px;
+  }
+  .bath-images,
+  .yacht-img,
+  .house-inside-pictures{
+    display: flex;
+    justify-content: center;
+
+  }
+  .services-content span{
+      text-decoration: underline;
+  }
+  .walking-in-blue-lakes h5{
+      text-align: center;
+  }
+  .walking-in-blue-lakes li{
+      font-size: 18px;
+  }
+  .services-content p{
+      text-align: justify;
+  }
+  .blue-lakes-images img{
+      margin-bottom: 10px;
+  }
+  .btn-primary {
+    color: black;
+    background-color: #faf3d2;
+    border-color: #faf3d2;
+  }
+  .house-inside-pictures img,
+  .besedka-images img,
+  .houses-images img {
+      width: 300px;
+      margin-right: 1px;
+      border: 2px solid transparent;   
+  }
+  .house-inside-pictures{
+      flex-wrap: wrap;
+  }
+  .house-gallery h2,
+  .house-gallery h4,
+  .houses h4,
+  .prices-content h2,
+  .prices-content h3,
+  .booking h2,
+  .rules-content h2,
+  .rules-content h4{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .besedka-images{
+      display: flex;
+      justify-content: center;
+  }
+  .house-inside-pictures img,
+  .besedka-images img,
+  .houses-images img{
+      transition: 1s;
+  }
+  .house-inside-pictures img:hover,
+  .besedka-images img:hover,
+  .houses-images img:hover{
+      transform: scale(2);
+      z-index: 2;
+  }
+  .houses-images{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .table-prices,
+  .additonal-table-prices{
+    border: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+  }
+  .prices-header th:nth-child(1),
+  .prices-header th:nth-child(2){
+    width: 30%;
+  }
+  .prices-header th:nth-child(3){
+    width: 40%;
+  }
+  .table-prices tr:nth-child(even),
+  .additonal-table-prices tr:nth-child(even){
+    background-color: #faf3d2;
+  }
+  .prices-content ul{
+    margin-left: 17px;
+    margin-top: 10px;
+  }
+ .foot{
+     border-top: 2px solid #ECF0F1;
+     border-bottom: 2px solid #ECF0F1;
+     margin-bottom: 15px;
+     margin-top: 20px;
+     text-align: center;
+ }
+ .additonal-prices-header th{
+     width: 50%;
+ }
+.contact a:nth-child(2):hover,
+.contact a:nth-child(4):hover
+{
+    text-decoration: underline;
+    color: #007bff;
+}
+.navigation a{
+    transition: 1.5s;
+}
+.navigation a:hover{
+    color: #007bff;
+    transform: scale(1.5);
+}
+.logo a{
+    text-decoration: none;
+    color: #2C3E50;
+}
+.card:hover{
+    border: 1px solid #007bff;
+    box-shadow: 0 0 20px #007bff;
+}
+.toBook{
+    margin-bottom: 20px;
+}
+.partners-content a{
+    display: block;
+}
+.contacts a{
+    color:inherit;
+}
+.rules-content p{
+text-align: justify;
+}
+.rules-content ul{
+margin-left: 10px;
+}
+.search button{
+    border-radius: 15px;
+}
+.owl-carousel .owl-item img{
+    height: 400px;
+}
+.owl-nav span{
+    font-size: 25px;
+}
+.gallery-link a{
+    color:#2C3E50;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+.fa-phone-alt:before,
+.fa-envelope:before {
+    vertical-align: sub;
+    font-size: 15px;  
+}
+

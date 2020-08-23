@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Усадьба &#34;ПОНОМАРЁВО&#34;</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/525ae5920a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <div class="content-wrap">
+    <div class="main-container">
+      <!-- header -->
+      <header>
+        <div class="top">
+          <div class="contact">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+375296722510" title="Номер телефона">+375296722510</a>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:denis2268@yandex.ru" title="Адрес элетронной почты">Ponomarevo@mail.ru</a>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i> Лучшая усадьба Нарочанского края 2019 (по версии Booking.com)
+          </div>
+          <div class="weather">
+            <a href="https://rp5.ru/151450/ru" title="Weather"><img border=0 width=88 height=31
+                src="https://rp5.ru/informer/88x31x2.php?f=26&id=151450&lang=ru&um=00000" alt="weather"
+                title="weather"></a>
+          </div>
+        </div>
+        <nav>
+          <div class="logo">
+            <a href="Index.html" title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+              <i class="fab fa-fort-awesome-alt"></i><span>Усадьба &#34;ПОНОМАРЁВО&#34;</span>
+            </a>
+          </div>
+          <div class="navigation" id="navigation">
+            <a href="aboutUs.html" title="О нас">О нас</a>
+            <a href="services.html" title="Услуги">Услуги</a>
+            <a href="gallery.html" title="Галерея">Галерея</a>
+            <a href="prices.html" title="Цены">Цены</a>
+            <a href="#contactslink" title="Контакты">Контакты</a>
+          </div>
+        </nav>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="Index.html" title="Главная">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Форма для заполнения при бронировании номеров</li>
+          </ol>
+        </nav>
+        <section class="booking">
+          <h2>Форма для заполнения при бронировании номеров</h2>
+          <div class="toBook">
+            <form method="GET" action="http://fe.it-academy.by/TestForm.php">
+              <div class="FIO_guest">
+                <label>Фамилия:<br>
+                  <input type="text" name="Фамилия" maxlength="15">
+                </label>
+                <label>Имя:<br>
+                  <input type="text" name="Имя" maxlength="15">
+                </label>
+                <label>Отчество:<br>
+                  <input type="text" name="Отчество" maxlength="15">
+                </label>
+              </div>
+              <div class="nameRoom">
+                <label>Название гостевого дома:<br>
+                  <select name="nameOfHouse" class="house-select">
+                    <option value="1">Лиловый</option>
+                    <option value="2" id="nameOfHouse1">Васильковый</option>
+                    <option value="3">Нарочанский</option>
+                    <option value="4">Майский</option>
+                    <option value="5">Весенний</option>
+                    <option value="6">Основной дом</option>
+                  </select>
+                </label>
+              </div>
+              <div class="Check-in">
+                <label>Дата заселения:<br>
+                  <input type="date" placeholder="01.01.2020" name="Дата заселения" maxlength="8" min="01.08.2020"
+                    max="01.01.2025">
+                </label>
+              </div>
+              <div class="days">
+                <label>Количество дней:<br>
+                  <input type="text" name="Количество дней" maxlength="3">
+                </label>
+              </div>
+              <div class="animals">
+                <label>Гости с домашними питомцами<br>
+                  <input type="checkbox" name="pets">
+                </label>
+              </div>
+              <div class="invalids">
+                <label>Гости с ограниченными возможностями<br>
+                  <input type="checkbox" name="invalid">
+                </label>
+              </div>
+              <div class="search">
+                <button type="submit">
+                  <span>Забронировать</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <footer>
+          <div class="contacts" id="contactslink">
+            <h3>Наши контакты:</h3>
+            <adress>
+              <h5>Наш адрес:</h5>
+              <p>222395, Минская область, Мядельский район,
+                Нарочанский сельский совет, д. Гатовичи</p>
+              <h5>Контактные телефоны:</h5>
+              <a href="tel:+375296722510" title="Номер телефона">+375296722510</a><br>
+              <a href="tel:+375447432289" title="Номер телефона">+375447432289</a>
+              <h5>Email:</h5>
+              <a href="mailto:denis2268@yandex.ru" title="Адрес электронной почты">Ponomarevo@mail.ru</a>
+            </adress>
+          </div>
+          <div class="rules">
+            <h3>Наши правила</h3>
+            <a href="generalRules.html" title="Правила пребывания в усадьбе &#34;ПОНОМАРЁВО&#34;">Правила пребывания в усадьбе
+              &#34;ПОНОМАРЁВО&#34;</a><br>
+            <a href="livingRules.html" title="Внутрениие правила поведения в усадьбе &#34;ПОНОМАРЁВО&#34;">Внутрениие правила
+              поведения в усадьбе &#34;ПОНОМАРЁВО&#34;</a><br>
+            <a href="antiFireRules.html" title="Правила противопожарной безопасности и безопасного поведения">Правила
+              противопожарной безопасности и безопасного поведения</a><br>
+          </div>
+        </footer>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+  </script>
+  <script src="javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Усадьба &#34;ПОНОМАРЁВО&#34;</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/525ae5920a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <div class="content-wrap">
+    <div class="main-container">
+      <!-- header -->
+      <header>
+        <div class="top">
+          <div class="contact">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+375296722510" title="Номер телефона">+375296722510</a>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:denis2268@yandex.ru" title="Адрес электронной почты">Ponomarevo@mail.ru</a>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>Лучшая усадьба Нарочанского края 2019 (по версии Booking.com)
+          </div>
+          <div class="weather">
+            <a href="https://rp5.ru/151450/ru" title="Weather"><img border=0 width=88 height=31
+                src="https://rp5.ru/informer/88x31x2.php?f=26&id=151450&lang=ru&um=00000" alt="weather"
+                title="weather"></a>
+          </div>
+        </div>
+        <nav>
+          <div class="logo">
+            <a href="Index.html" title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+              <i class="fab fa-fort-awesome-alt"></i><span>Усадьба &#34;ПОНОМАРЁВО&#34;</span>
+            </a>
+          </div>
+          <div class="navigation" id="navigation">
+            <a href="aboutUs.html" title="О нас">О нас</a>
+            <a href="services.html" title="Услуги">Услуги</a>
+            <a href="gallery.html" title="Галерея">Галерея</a>
+            <a href="prices.html" title="Цены">Цены</a>
+            <a href="#contactslink" title="Контакты">Контакты</a>
+          </div>
+        </nav>
+      </header>
+      <!-- slider -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/tk4.jpg" class="d-block w-100" alt="Naroch" title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+          </div>
+          <div class="carousel-item">
+            <img src="img/forth-picture.jpg" class="d-block w-100" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+              title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+          </div>
+          <div class="carousel-item">
+            <img src="img/07.jpg" class="d-block w-100" alt="Naroch" title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+          </div>
+          <div class="carousel-item">
+            <img src="img/04.jpg" class="d-block w-100" alt="Naroch" title="Усадьба &#34;ПОНОМАРЁВО&#34;">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+          title="Предыдущий">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
+          title="Следующий">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- form -->
+      <div class="searchBar">
+        <form method="GET" action="http://fe.it-academy.by/TestForm.php">
+          <div class="guest">
+            <legend>Количество гостей:</legend>
+            <input type="text" name="Количество гостей" maxlength="2">
+          </div>
+          <div class="rooms">
+            <legend>Количество комнат:</legend>
+            <input type="text" name="Количество комнат" maxlength="2">
+          </div>
+          <div class="Check-in">
+            <legend>Дата заселения:</legend>
+            <input type="date" placeholder="01.01.2020" name="Дата заселения" maxlength="8" min="01.08.2020"
+              max="01.01.2025">
+          </div>
+          <div class="days">
+            <legend>Количество дней:</legend>
+            <input type="text" name="Количество дней" maxlength="3">
+          </div>
+          <div class="animals">
+            <legend>Гости с домашними питомцами</legend>
+            <input type="checkbox" name="pets">
+          </div>
+          <div class="invalids">
+            <legend>Гости с ограниченными возможностями</legend>
+            <input type="checkbox" name="invalid">
+          </div>
+          <div class="search">
+            <button type="submit">
+              <span>Поиск</span>
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Services -->
+      <section class="services">
+        <h2>Услуги агроусадьбы</h2>
+        <div class="services-articles">
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/bicycle.jpg" class="card-img-top" alt="bicycle" title="Велопрогулки">
+              <div class="card-body">
+                <h5 class="card-title">Велопрогулки</h5>
+                <p class="card-text">Мы любезно предоставим в аренду велосипед и предложим на выбор несколько маршрутов
+                  для увлекательной велопрогулки.</p>
+                <a href="services.html#cycling" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+              </div>
+            </div>
+          </article>
+          <div class="card" style="width: 18rem;">
+            <img src="img/griby.jpg" class="card-img-top" alt="toMushroom" title="Тихая охота">
+            <div class="card-body">
+              <h5 class="card-title">&#34;Тихая охота&#34;</h5>
+              <p class="card-text">Мы предлагаем нашим гостям прогуляться в поисках грибов и ягод, вдохнуть полной
+                грудью чистого нарачанского воздуха и забыть на время о городской суете. Карта грибных мест
+                предоставляется.</p>
+              <a href="services.html#mushrooms-berries" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+            </div>
+          </div>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/fishing.jpg" class="card-img-top" alt="fishing" title="Рыбалка">
+              <div class="card-body">
+                <h5 class="card-title">Рыбалка</h5>
+                <p class="card-text">Предоставляем в аренду снасти для раболовства.Поможем новичку советом.</p>
+                <a href="services.html#fishing" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/sauna.jpg" class="card-img-top" alt="bath" title="Баня">
+              <div class="card-body">
+                <h5 class="card-title">Баня</h5>
+                <p class="card-text">Наша баня на дровах. Предоставляем банные принадлежности.</p>
+                <a href="services.html#bath" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/ship.jpg" class="card-img-top" alt="ship"
+                title="Прогулка на яхте по озеру &#34;Нарочь&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Прогулка на яхте по озеру &#34;Нарочь&#34;</h5>
+                <p class="card-text">Организуем прогулку на комфортабельной яхте по озеру &#34;Нарочь&#34; для любой
+                  компании.</p>
+                <a href="services.html#yacht" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/BlueLakes.jpg" class="card-img-top" alt="BlueLakes"
+                title="Прогулка по экотропе &#34;Голубые озера&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Прогулка по экотропе &#34;Голубые озера&#34;</h5>
+                <p class="card-text">Организуем доставку на автомобиле для прогулки по экотропе &#34;Голубые
+                  озера&#34;.Маршруты от 3 до 7 километров.</p>
+                <a href="services.html#blue-lakes" class="btn btn-primary" title="Подробнее...">Подробнее...</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section class="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery-images">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/gallery1.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery2.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery3.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery4.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery5.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery6.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+            <div class="item"><img src="img/gallery7.jpg" alt="Усадьба &#34;ПОНОМАРЁВО&#34;"
+                title="Усадьба &#34;ПОНОМАРЁВО&#34;"></div>
+          </div>
+        </div>
+        <div class="gallery-link">
+          <a href="gallery.html" class="btn btn-primary" title="Галерея">Перейти в Галерею</a>
+        </div>
+      </section>
+      <!-- Aparts -->
+      <section class="aparts">
+        <h2>Наши аппартаменты</h2>
+        <div class="aparts-articles">
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/aparts1.jpg" class="card-img-top" alt="apartaments-lilovyu"
+                title="Гостевой домик &#34;Лиловый&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Гостевой домик &#34;Лиловый&#34;</h5>
+                <p class="card-text">Просторный дом 4-6 человек, 2 этажа, балкон, полностью оборудован бытовой техникой,
+                  возможно размещение домашних питомцев. </p>
+                <a href="booking.html" class="btn btn-primary" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+          </article>
+          <div class="card" style="width: 18rem;">
+            <img src="img/aparts2.jpeg" class="card-img-top" alt="apartaments-vasilkovyu"
+              title="Гостевой домик &#34;Васильковый&#34;">
+            <div class="card-body">
+              <h5 class="card-title">Гостевой домик &#34;Васильковый&#34;</h5>
+              <p class="card-text">Просторный дом 4-6 человек, 2 этажа, балкон, полностью оборудован бытовой техникой,
+                подходит для лиц с ограниченными возможностями.</p>
+              <a href="booking.html" class="btn btn-primary" title="Забронировать">Забронировать</a>
+            </div>
+          </div>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/aparts3.jpg" class="card-img-top" alt="apartaments-narochanskiu"
+                title="Гостевой домик &#34;Нарочанский&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Гостевой домик &#34;Нарочанский&#34;</h5>
+                <p class="card-text">Просторный дом 4-6 человек, 2 этажа, балкон, полностью оборудован бытовой техникой,
+                  подходит для лиц с ограниченными возможностями.</p>
+                <a href="booking.html" class="btn btn-primary" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/aparts4.jpeg" class="card-img-top" alt="apartaments-maiskiu"
+                title="Гостевой домик &#34;Майский&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Гостевой домик &#34;Майский&#34;</h5>
+                <p class="card-text">Просторный дом 4-6 человек, 2 этажа, балкон, полностью оборудован бытовой техникой,
+                  возможно размещение домашних питомцев.</p>
+                <a href="booking.html" class="btn btn-primary" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 18rem;">
+              <img src="img/aparts5.jpg" class="card-img-top" alt="apartaments-vesenniu"
+                title="Гостевой домик &#34;Весенний&#34;">
+              <div class="card-body">
+                <h5 class="card-title">Гостевой домик &#34;Весенний&#34;</h5>
+                <p class="card-text">Просторный дом 4-6 человек, 2 этажа, балкон, полностью оборудован бытовой техникой,
+                  возможно размещение домашних питомцев.</p>
+                <a href="booking.html" class="btn btn-primary" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Partners -->
+      <section class="partners">
+        <h2>Наши партнёры</h2>
+        <div class="partners-content">
+          <a href="https://www.tripadvisor.ru/" title="www.tripadvisor.ru">
+            <div class="our-partners">
+            </div>
+          </a>
+          <a href="https://www.booking.com" title="www.booking.com">
+            <div class="our-partners-second">
+            </div>
+          </a>
+          <a href="https://www.airbnb.ru/" title="www.airbnb.ru">
+            <div class="our-partners-third">
+            </div>
+          </a>
+          <a href="https://www.vrbo.com/" title="www.vrbo.com">
+            <div class="our-partners-forth">
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- MAP -->
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59184.62336452561!2d26.74985274564579!3d54.853051145397124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDUxJzA3LjYiTiAyNsKwNTEnMjMuNCJF!5e0!3m2!1sru!2sby!4v1596226869960!5m2!1sru!2sby"
+          width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </section>
+      <!-- footer -->
+      <footer id="contactslink">
+        <div class="contacts">
+          <h3>Наши контакты:</h3>
+          <adress>
+            <h5>Наш адрес:</h5>
+            <p>222395, Минская область, Мядельский район,
+              Нарочанский сельский совет, д. Гатовичи</p>
+            <h5>Контактные телефоны:</h5>
+            <a href="tel:+375296722510" title="Номер телефона">+375296722510</a><br>
+            <a href="tel:+375447432289" title="Номер телефона">+375447432289</a>
+            <h5>Email:</h5>
+            <a href="mailto:denis2268@yandex.ru" title="Адрес электронной почты">Ponomarevo@mail.ru</a>
+          </adress>
+        </div>
+        <div class="rules">
+          <h3>Наши правила</h3>
+          <a href="generalRules.html" title="Правила пребывания в усадьбе &#34;ПОНОМАРЁВО&#34;">Правила пребывания в усадьбе
+            &#34;ПОНОМАРЁВО&#34;</a><br>
+          <a href="livingRules.html" title="Внутрениие правила поведения в усадьбе &#34;ПОНОМАРЁВО&#34;">Внутрениие правила
+            поведения в усадьбе &#34;ПОНОМАРЁВО&#34;</a><br>
+          <a href="antiFireRules.html" title="Правила противопожарной безопасности и безопасного поведения">Правила
+            противопожарной безопасности и безопасного поведения</a><br>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="javascript.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        margin: 15,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        center: true,
+        loop:true,
+        responsive: {
+          0: { items: 1, },
+          700: { items: 2 },
+          1230: { items: 3 }
+        }
+      });
+    });
+  </script>
+  <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
